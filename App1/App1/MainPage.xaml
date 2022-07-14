@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+        <Label Text="This is a new lable"
+               AutomationId="lblnew"/>
+        <Entry AutomationId="entName"/>
+        <Button Text="Click me!!!"
+                AutomationId="btnClick"
+                Clicked="Button_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
